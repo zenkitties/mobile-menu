@@ -1,0 +1,36 @@
+/* Social Media Icons and Styles */
+
+#social-bar {
+    position: absolute;
+    top: 75px;
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        
+        li {
+            list-style-type: none;
+            float: left;
+            margin: 0;
+            padding: 0 10px;
+            
+            #facebook {
+                padding: 4px 10px;
+            }
+            
+            
+            a {
+                transition: all 100ms ease-in-out;
+                border: 1px solid $color-one;
+                background: transparent;
+                border-radius: 40px;
+                padding: 4px 8px;
+            }
+            
+            a:hover {
+                border: 5px solid $color-one;
+            }
+            
+        }
+    }
+}

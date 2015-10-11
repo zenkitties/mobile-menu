@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile Menu Practice</title>
+    
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   <!-- header stuffs that will include the menu bar -->
+   
+   <div class="container-fluid">
+       <header class="custom-menu">
+                   <div class="visible-xs-* visible-sm-* hidden-md hidden-lg compact-menu col-xs-12">
+                      <div class="menu-button"><i class="fa fa-bars"></i></div>
+                       <div class="menu-button"><i class="fa fa-search"></i></div>
+                       <div class="menu-button"><i class="fa fa-spinner"></i></div>
+                   </div><!-- mobile menu bar -->
+                   
+                   <!-- mobile search bar -->
+                   <div class="container visible-xs-* visible-sm-* hidden-md hidden-lg">
+                     <div id="search-bar" class="col-xs-12 element-hidden">
+                      <input id="search-input" type="text" placeholder="Enter Search Term.." />
+                      <button id="search-submit" type="submit">Search</button>
+                     </div><!-- search bar closing div --> 
+                   </div><!-- search bar closing container div -->
+                    
+                    <!-- social media mobile bar -->
+                    <div class="container visible-xs-* visible-sm-* hidden-md hidden-lg ">
+                       <div id="social-bar" class="col-xs-12 element-hidden">
+                          <ul>
+                            <li><a href="https://twitter.com/hitperformlab" target="_blank" alt="hpl twitter"><i class="fa fa-twitter"></i></a></li>
+                            <li><a id="facebook" href="https://www.facebook.com/HittingPerformanceLab" target="_blank" alt="hpl facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/HittingPerformLab" target="_blank" alt="hpl youtube"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/joeymyers30" target="_blank" alt="hpl linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="http://hittingperformancelab.com/feed/" target="_blank" alt="rpl rss"><i class="fa fa-rss"></i></a></li>  
+                          </ul>
+                       </div><!-- closing div for the social-bar -->
+                    </div><!-- closing div for the social-bar container -->
+                    <nav class="element-hidden">
+                        <ul class="col-xs-12 visible-xs-* visible-sm-* hidden-md hidden-lg hpl-menu-items">
+                            <li class="nav-items"><a href="#">Home</a></li>
+                            <li class="nav-items"><a href="#">Products</a></li>
+                            <li class="nav-items"><a href="#">Topics</a></li>
+                            <li class="nav-items"><a href="#">Case Studies</a></li>
+                            <li class="nav-items"><a href="#">About</a></li>
+                            <li class="nav-items"><a href="#">Login</a></li>
+                        </ul>
+                    </nav><!--closing div-menu-container --> 
+       </header><!-- closing menu div --> 
+   </div><!-- closing container that holds everything -->
+    
+    
+       
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/script.js"></script>           
+</body>
+</html>

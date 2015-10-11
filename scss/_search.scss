@@ -1,0 +1,35 @@
+/* search bar stuffs goes here */
+#search-bar {
+    background-color: $color-two;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    color: white;
+    height: 50px;
+    opacity: .7;
+    
+    #search-input {
+        border-bottom: 1px solid lighten($color-two, 20%);
+        border: 1px solid darken($color-two, 20%);
+        background-color: darken($color-two, 20%);
+        color: $link-color;
+        padding-left: 10px;
+
+        height: 30px;
+        opacity: .50;
+    }
+    
+    #search-submit {
+        transition: background-color 300ms ease-in-out;
+        border: 2px solid darken($color-two, 10%);
+        background-color: transparent;
+        color: $link-color;
+        padding: 3px 10px;
+        
+    }
+    
+    #search-submit:hover {
+        background-color: lighten($color-two, 5%);
+    }
+    
+    
+}

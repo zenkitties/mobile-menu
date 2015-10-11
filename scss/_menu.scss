@@ -1,0 +1,67 @@
+//Custom Menu Styles
+
+.custom-menu {
+    background-color: transparent;
+    position: relative;
+    padding: 0 0;
+    margin: 0 0;
+    
+    li {
+        padding: 10px 20px;
+    }
+    
+    .hpl-menu-items {
+        background-color: $color-two;
+        position: absolute;
+        opacity: .70;
+        padding: 0;
+        
+        :hover {
+            background-color: lighten($color-two, 10%);
+        }
+        
+        a {
+            width: auto;
+        }
+        
+        .nav-items {
+            border-bottom: 1px solid lighten($color-two, 10%);
+            padding: 10px 20px;
+            display: block;
+            float: none;
+            text-transform: uppercase;
+            
+            a:hover {
+                color: $link-color;
+            }
+        }
+    }
+    
+}
+
+
+//mobile menu bar styling
+.compact-menu {
+    border-bottom: 1px solid $color-one;
+    background-color: $background;
+    margin-bottom: 10px;
+
+    
+    .fa-bars, .fa-search, .fa-spinner {
+        transition: color 300ms ease-in-out;
+        color: $link-color;
+    }
+    
+    .fa-bars:hover, .fa-search:hover, .fa-spinner:hover {
+        color: $color-one;
+    }
+    
+    .menu-button {
+        background-color: transparent;
+        border: 1px solid $color-one;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 5px 10px;
+        margin: 10px 5px;
+    }
+}

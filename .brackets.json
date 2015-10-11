@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/sandbox/mobile-menu/gulpfile.js",
+        "C:/sandbox/mobile-menu/dist/all.min.js",
+        "C:/sandbox/mobile-menu/dist/all.js"
+    ]
+}

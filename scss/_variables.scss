@@ -1,0 +1,26 @@
+
+//color one is currently orange
+$color-one: hsl(17, 84%, 53%);
+//color two is currently purple
+$color-two: hsl(304, 92%, 21%);
+//link color is going to be white
+$link-color: hsla(360, 100%, 100%, 1);
+//link hover color will be the offshoot of color two
+$link-hover: lighten($color-one, 10%);
+
+
+//background color will be an offshoot of color one
+$background: hsla(0, 0%, 15%, 1);
+
+
+//calculating widths for mobile menu itmes
+$menu-items: 5;
+$width: $menu-items / %100;
+
+//font sizes
+$font-size: 16px;
+$small-font-size: $font-size - 2px;
+$bigger-font-size: $font-size + 2px;
+$heading-font: $font-size + 6px;
+
+$font: $font-size "Open Sans", "Century Gothic", Arial, Helvetica;

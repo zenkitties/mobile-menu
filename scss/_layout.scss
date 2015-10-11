@@ -1,0 +1,31 @@
+/* overall layout code here */
+
+body {
+    background-color: $background;
+    font: $font;
+    
+    a {
+        transition: color 300ms ease-in-out;
+        text-decoration: none;
+        color: $link-color;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: $link-hover;
+    }
+}
+
+.container-fluid {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.element-visible {
+    visibility: visible;
+}
+
+.element-hidden {
+    display: none;
+    height: 0;
+}

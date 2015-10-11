@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather|Open+Sans);
+/* overall layout code here */
+body {
+  background-color: #262626;
+  font: 16px "Open Sans", "Century Gothic", Arial, Helvetica; }
+  body a {
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+    color: white; }
+  body a:hover {
+    text-decoration: none;
+    color: #f07e51; }
+
+.container-fluid {
+  margin: 0 0;
+  padding: 0 0; }
+
+.element-visible {
+  visibility: visible; }
+
+.element-hidden {
+  display: none;
+  height: 0; }
+
+/* header styles */
+.custom-menu {
+  background-color: transparent;
+  position: relative;
+  padding: 0 0;
+  margin: 0 0; }
+  .custom-menu li {
+    padding: 10px 20px; }
+  .custom-menu .hpl-menu-items {
+    background-color: #670460;
+    position: absolute;
+    opacity: .70;
+    padding: 0; }
+    .custom-menu .hpl-menu-items :hover {
+      background-color: #98068e; }
+    .custom-menu .hpl-menu-items a {
+      width: auto; }
+    .custom-menu .hpl-menu-items .nav-items {
+      border-bottom: 1px solid #98068e;
+      padding: 10px 20px;
+      display: block;
+      float: none;
+      text-transform: uppercase; }
+      .custom-menu .hpl-menu-items .nav-items a:hover {
+        color: white; }
+
+.compact-menu {
+  border-bottom: 1px solid #ec5c22;
+  background-color: #262626;
+  margin-bottom: 10px; }
+  .compact-menu .fa-bars, .compact-menu .fa-search, .compact-menu .fa-spinner {
+    transition: color 300ms ease-in-out;
+    color: white; }
+  .compact-menu .fa-bars:hover, .compact-menu .fa-search:hover, .compact-menu .fa-spinner:hover {
+    color: #ec5c22; }
+  .compact-menu .menu-button {
+    background-color: transparent;
+    border: 1px solid #ec5c22;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 5px; }
+
+/* search bar stuffs goes here */
+#search-bar {
+  background-color: #670460;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  color: white;
+  height: 50px;
+  opacity: .7; }
+  #search-bar #search-input {
+    border-bottom: 1px solid #c908bc;
+    border: 1px solid #050005;
+    background-color: #050005;
+    color: white;
+    padding-left: 10px;
+    height: 30px;
+    opacity: .50; }
+  #search-bar #search-submit {
+    transition: background-color 300ms ease-in-out;
+    border: 2px solid #360232;
+    background-color: transparent;
+    color: white;
+    padding: 3px 10px; }
+  #search-bar #search-submit:hover {
+    background-color: #7f0577; }
+
+/* Social Media Icons and Styles */
+#social-bar {
+  position: absolute;
+  top: 75px; }
+  #social-bar ul {
+    margin: 0;
+    padding: 0; }
+    #social-bar ul li {
+      list-style-type: none;
+      float: left;
+      margin: 0;
+      padding: 0 10px; }
+      #social-bar ul li #facebook {
+        padding: 4px 10px; }
+      #social-bar ul li a {
+        transition: all 100ms ease-in-out;
+        border: 1px solid #ec5c22;
+        background: transparent;
+        border-radius: 40px;
+        padding: 4px 8px; }
+      #social-bar ul li a:hover {
+        border: 5px solid #ec5c22; }
